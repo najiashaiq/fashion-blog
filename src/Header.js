@@ -1,17 +1,12 @@
-import React from 'react';
+import React from "react";
+import Nav from "./Nav"; 
 
 function Header() {
   return (
     <header>
-      <h1>Fashion Blog</h1>
-      <h2>The Latest Trends</h2>
-      <nav>
-        <ul aria-label="Main Navigation" role="navigation">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Latest Posts</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <h1>Sartre's List</h1>
+      <h2>Better Dressed People</h2>
+      <Nav />
     </header>
   );
 }

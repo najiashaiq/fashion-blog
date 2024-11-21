@@ -1,10 +1,12 @@
 import React from 'react';
 
-function Article() {
+function Article({ date, title, imageSrc, imageAlt, content }) {
   return (
     <article>
-      <h2>Post Title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris at felis.</p>
+      <h2>{date}</h2>
+      <h3>{title}</h3>
+      <img src={imageSrc} alt={imageAlt} />
+      <p>{content}</p>
       <p><a href="#">Continues...</a></p>
     </article>
   );
